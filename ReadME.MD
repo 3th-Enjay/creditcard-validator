@@ -1,3 +1,5 @@
+### Break down the regular expression for validating Visa card numbers
+
 ^4: This part checks if the card number starts with the digit 4.  The ^ symbol signifies the beginning of the string.  Visa cards always begin with a 4.
 
 \d{12}: This requires exactly 12 digits to follow the initial 4. \d represents any digit (0-9), and {12} means "exactly 12 occurrences".
